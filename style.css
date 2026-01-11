@@ -640,7 +640,7 @@ main {
   color: var(--green-235); /* hover green */
   background-color: #f0fff4;
   box-shadow: 0 6px 16px rgba(0, 235, 0, 0.35);
-  animation: shadowGradient 3s infinite alternate; /* border shadow like social icons */
+  /*animation: shadowGradient 3s infinite alternate; /* border shadow like social icons */
   
 }
 
@@ -989,3 +989,4 @@ button[type="submit"]:hover {
 
 
 }
+
