@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sumathi Catering | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Poppins Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ <!-- HEADER -->
+  <header id="mainHeader" class="header">
+    <div class="container header-inner">
+      <div class="logo-area"> <a href="index.html" class="logo-link">
+        <img src="E:\Sumathi Foods\SF Website\SF New\sfc\my logo.png" alt="Sumathi Catering Logo" class="logo-img"></a>
+        
+        <!--span class="brand-name">Sumathi Catering</span-->
+      </div>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <!-- Mobile Hamburger -->
+      <button id="hamburger" class="hamburger" aria-label="Toggle menu">
+        <span class="ham-line line-top"></span>
+        <span class="ham-line line-middle"></span>
+        <span class="ham-line line-bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <nav id="mobileMenu" class="mobile-menu">
+      <a href="index.html" class="mobile-link">Home</a>
+      <a href="about.html" class="mobile-link">About</a>
+      <a href="services.html" class="mobile-link">Services</a>
+      <a href="contact.html" class="mobile-link active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- FLOATING WHATSAPP ICON (All pages) -->
+  <a href="https://wa.me/917339092878?text=Hi%20Sumathi%20Catering%2C%20I%20need%20a%20quote" 
+     class="floating-whatsapp" 
+     id="floatingWhatsapp" 
+     target="_blank" 
+     aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+   <!-- SCROLL TO TOP BUTTON (shows near footer) -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+<!-- Section 1: Contact message + image -->
+<section class="section contact-message">
+  <div class="container contact-message-inner">
+    <div class="message-text">
+      <h2 class="section-title">Reach Out To Us for Your Celebrations</h2>
+      <div class="section-label">
+        <span class="bar bar-blue"></span>
+        <span class="bar bar-green"></span>
+      </div>
+      <p>
+        Want to make your event memorable with authentic South Indian flavors? Our team is ready to serve you with love and tradition.
+        Contact us today for your bookings, queries, or special requests. We promise prompt response within 24 hours.
+      </p>
+    </div>
+    <div class="message-image">
+      <img src="https://images.pexels.com/photos/2387416/pexels-photo-2387416.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Customer care service" />
+    </div>
+  </div>
+</section>
+
+<!-- Section 2: Google Map -->
+<section class="section map-section">
+  <h2 class="section-title">Our Location in Chennai</h2>
+  <div class="section-label">
+    <span class="bar bar-blue"></span>
+    <span class="bar bar-green"></span>
+  </div>
+  <!-- Replace marker location with your actual place -->
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789!2d80.123456!3d13.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d0d1234567%3A0xabcdef1234567890!2sYour%20Place%20Name!5e0!3m2!1sen!2sin!4v1234567890123" 
+    width="100%" height="450" style="border:0; border-radius:12px;" allowfullscreen="" loading="lazy" 
+    title="Google Map Location"></iframe>
+  <!-- Remember to replace src with your actual location URL -->
+  <!-- You can embed your specific location by going to Google Maps > Share > Embed Map -->
+</section>
+
+<!-- Section 3: Contact Details & Form -->
+<section class="section contact-details-form">
+  <div class="container contact-details-inner">
+    <!-- Left side: contact info -->
+    <div class="contact-info">
+      <h2 class="sub-title">Contact Details</h2>
+      <div class="contact-item">
+        <a href="https://www.google.com/maps/search/?api=1&query=Your+Address" target="_blank" title="Locate us in Google Maps" class="icon-link">
+          <i class="fas fa-home"></i> Chennai, Tamil Nadu
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="tel:+917339092878" title="Call us" class="icon-link">
+          <i class="fas fa-phone"></i> +91 73390 92878
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="mailto:sumathicatering@gmail.com" target="_blank" title="Send Email" class="icon-link">
+          <i class="fas fa-envelope"></i> sumathifoodservice@gmail.com
+        </a>
+      </div>
+    </div>
+    <!-- Right side: contact form -->
+    <div class="contact-form-card">
+      <h2 class="sub-title">Contact Us</h2>
+      <div class="section-label">
+        <span class="bar bar-blue"></span>
+        <span class="bar bar-green"></span>
+      </div>
+      <form id="contactForm" class="contact-form" onsubmit="return submitForm()">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email ID</label>
+          <input type="email" id="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile</label>
+          <input type="tel" id="mobile" pattern="+91[0-9]{10}" placeholder="+91 XXXXX XXXXX" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Your message" required></textarea>
+        </div>
+        <div class="form-submit">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+      <div id="responseMessage" class="response-message"></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<!-- Scripts for form and scroll behavior -->
+<script>
+  function submitForm() {
+    document.getElementById('responseMessage').innerHTML = `
+      <p style="font-weight:600; color:blue;">We will reach you soon within 24 hours.</p>
+      <p style="font-weight:600; color:green;">We will contact you shortly.</p>`;
+    document.getElementById('contactForm').reset();
+    // Optional: Submit form data to Google Sheets via API here, add URL in comment
+    return false; // prevent default form submit
+  }
+</script>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© <span id="year"></span> Sumathi Catering. Made by <span class="made-by">Tamilselvan R</span></p>
+      </div>
+      <div class="footer-right">
+        <a href="https://wa.me/917339092878" target="_blank" class="footer-icon">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="footer-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com" target="_blank" class="footer-icon">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
