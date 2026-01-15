@@ -955,6 +955,7 @@ button[type="submit"]:hover {
  .contact-message
  {
   flex-wrap: nowrap;
+  text-align: left;
  }
 .contact-message-inner{
   flex-direction: column;
@@ -989,4 +990,5 @@ button[type="submit"]:hover {
 
 
 }
+
 
