@@ -61,6 +61,7 @@ document.querySelectorAll('.service-card').forEach(card => {
 
 // TESTIMONIAL SLIDER (auto every 3s, stop on hover)
 const slider = document.getElementById('testimonialSlider');
+if (slider) {
 const track = slider.querySelector('.testimonial-track');
 const items = slider.querySelectorAll('.testimonial-item');
 const dots = document.querySelectorAll('#testimonialDots .dot');
@@ -106,6 +107,7 @@ dots.forEach(dot => {
     goToSlide(index);
   });
 });
+}
 
 
 function handleScrollTopVisibility() {
