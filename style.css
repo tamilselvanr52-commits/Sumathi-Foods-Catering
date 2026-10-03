@@ -355,6 +355,8 @@ main {
   transform: translateY(-6px);
   /* Hover shadow with green 235 tint */
   box-shadow: 0 5px 5px rgba(0, 0, 235, 0.25);
+  animation: shadowGradient 2s infinite alternate;
+   
   
 }
 .services-preview .section-header,
@@ -908,11 +910,11 @@ main {
 @keyframes shadowGradient {
  
   0% {
-    box-shadow: 0 0 10px #0010f0, 0 0 20px #00ff77;
+    box-shadow: 0 0 5px #0010f0, 0 0 10px #00ff77;
   }
   100% {
     
-    box-shadow: 0 20px 40px #0115c7ea, 0 20px 40px #29cc00;
+    box-shadow: 0 5px 10px #0115c7ea, 0 5px 10px #29cc00;
   }
 
 }
