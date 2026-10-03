@@ -355,7 +355,7 @@ main {
   transform: translateY(-6px);
   /* Hover shadow with green 235 tint */
   box-shadow: 0 16px 32px rgba(0, 235, 0, 0);
-  animation: shadowGradient 2s infinite alternate;
+  /*animation: shadowGradient 2s infinite alternate; */
 }
 .services-preview .section-header,
 .services-preview .section-label
