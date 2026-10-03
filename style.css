@@ -354,8 +354,8 @@ main {
 .service-card:hover {
   transform: translateY(-6px);
   /* Hover shadow with green 235 tint */
-  box-shadow: 0 5px 5px rgba(0, 235, 0, 0);
-  animation: shadow 2s;
+  box-shadow: 0 5px 5px rgba(0, 235, 0, 0.2);
+  
 }
 .services-preview .section-header,
 .services-preview .section-label
@@ -560,7 +560,7 @@ main {
   background-color: #f0fff4;
   box-shadow: 0 6px 16px rgba(0, 235, 0, 0.35); /* slight green shadow */
   transform: translateY(-2px);
-  animation: shadowGradient 2s infinite alternate;
+  /*animation: shadowGradient 2s infinite alternate;*/
 }
 
 /* FLOATING WHATSAPP BUTTON (All pages) */
@@ -604,7 +604,7 @@ main {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
   z-index: 950;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  animation: shadowGradient 2s infinite alternate;
+  /*animation: shadowGradient 2s infinite alternate;*/
 }
 /* SCROLL TO TOP BUTTON (shows near footer) */
 
