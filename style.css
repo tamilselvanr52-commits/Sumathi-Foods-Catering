@@ -888,7 +888,7 @@ main {
 .contact-form-card {
   flex: 1;
   min-width: 300px;
-  background: linear-gradient(135deg, #00aaff, #00ff77);
+  background: linear-gradient(135deg, #00ff0338, #2c4ec95e);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
