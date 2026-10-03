@@ -354,7 +354,7 @@ main {
 .service-card:hover {
   transform: translateY(-6px);
   /* Hover shadow with green 235 tint */
-  box-shadow: 0 5px 5px rgba(0, 235, 0, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 235, 0, 0.25);
   
 }
 .services-preview .section-header,
